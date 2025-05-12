@@ -46,6 +46,12 @@ A brief description of the project, its purpose, and key goals.
 
 # Lint command
 [command]
+
+# Check command
+[command]
+
+# Development server
+[command]
 ```
 
 ## Project Structure
@@ -60,34 +66,26 @@ Key directories and their purpose:
 
 Before submitting any code, ensure the following steps are completed:
 
-1. Run all lint commands to ensure code style compliance:
+1. **Run all lint, check and test commands**
 
-   ```bash
-   [lint command]
-   ```
+2. **Review outputs and iterate until all issues are resolved**
 
-2. Run check commands to validate code quality:
+3. **Assess compliance**:
+   For each standard, explicitly state ✅ or ❌ and explain why:
 
-   ```bash
-   [check command]
-   ```
-
-3. Review outputs and iterate until all issues are resolved
-
-4. Verify that the code complies with all standards defined in this document:
-
-   - Code style and formatting standards
+   - Code style and formatting
    - Naming conventions
-   - Project-specific patterns
-   - Test coverage requirements
-   - Documentation requirements
+   - Architecture patterns
+   - Error handling
+   - Test coverage
+   - Documentation
 
-5. Self-review checklist:
-   - [ ] Code follows the defined structure and patterns
-   - [ ] No debug code or commented-out code remains
-   - [ ] Error handling is implemented appropriately
-   - [ ] Tests are written and passing
-   - [ ] Documentation is updated
+4. **Self-review checklist**:
+   - [ ] Code follows defined patterns
+   - [ ] No debug/commented code
+   - [ ] Error handling implemented
+   - [ ] Tests written and passing
+   - [ ] Documentation updated
 
 ## Known Issues & Workarounds
 
