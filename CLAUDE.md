@@ -12,10 +12,31 @@ A brief description of the project, its purpose, and key goals.
 
 ## Code Style & Conventions
 
-- Import standards
-- Code formatting guidelines
-- Naming conventions
-- Project-specific patterns to follow
+### Architectural Principles
+
+- DRY principles and avoiding unnecessary code duplication, but with AHA in mind
+- Separation of concerns and component responsibility boundaries
+- DOTADIW (Do One Thing And Do It Well) and single responsibility principle application
+- UNIX philosophy and modular design patterns
+- KISS principles and simplicity-first approaches
+- React composition patterns and state management strategies
+- TypeScript type system design and constraint modelling
+- Modular code organisation and reusable component design
+- Maintainability assessment and technical debt identification
+
+### Import standards (strictly enforced)
+
+1. Built-ins
+2. External libraries (alphabetical)
+3. Internal packages (@org/\*)
+4. Relative imports
+5. Types (always last)
+
+### Code formatting guidelines
+
+### Naming conventions
+
+### Project-specific patterns to follow
 
 ## Development Workflow
 
